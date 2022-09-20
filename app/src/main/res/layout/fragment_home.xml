@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:id="@+id/tvHome"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_below="@id/tvHome"
+        android:text="Hello Rizal Rahmadani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+</RelativeLayout>
